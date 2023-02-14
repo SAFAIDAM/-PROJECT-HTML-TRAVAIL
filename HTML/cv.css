@@ -1,0 +1,217 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.background1{
+  width: 100%;
+  height: 100vh;
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.75),rgba(255, 255, 255, 0.75));
+  background-image: url(../images/cv\ background-01.png);
+  background-size: cover;
+  background-position: center;
+  
+}
+.background2{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/cv\ background2-01.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+ 
+}
+.background3{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/cv.background3-01.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  
+}
+.text{
+  width: 100%;
+  position: absolute;
+  top: 70%;
+  text-align: center;
+  color: #3f4436;
+  font-size: 25px;
+  font-family: "Beatrice";
+  
+}
+.text2 p{
+  text-align: center;
+  position: relative;
+  top: 100px;
+  font-size: 30px;
+  color: #39b795;
+  font-family: "Beatrice";
+}
+.text2 h2{
+  width: 200px;
+  padding: 50px;
+  text-align: center;
+  font-size: 40px;
+  position: relative ;
+  left: 40%;
+  top: 20px;
+  font-family: "Beatrice";
+ 
+}
+.text3 h2{
+width: 200px;
+  padding: 50px;
+  text-align: center;
+  font-size: 40px;
+  position: relative ;
+  left: 40%;
+  top: 20px;
+  font-family: "Beatrice";
+}
+.text4 h2{
+  font-family: "Beatrice";
+  font-size: 40px;
+  color: #0e2312;
+
+}
+.text4 h2{
+  font-family: "Beatrice";
+  font-size: 40px;
+  color: #0e2312;
+  
+}
+.text4 p{
+  font-family: "Beatrice";
+  font-size: 30px;
+  color: #0a150c;
+}
+
+
+.container.skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 200px;
+}
+.skills{
+  margin: 20px 0;
+  width: 100%;
+
+}
+.skill_name{
+  color:#2f4a34;
+  letter-spacing: 1px;
+  top: 300px;
+  
+}
+.bar_box{
+  background: #f5dcce;
+  position: relative;
+  width: 100%;
+}
+.ps{
+  position: absolute;
+  right: 6px;
+  top: 5px;
+  color: #305b38;
+  font-weight: bold;
+  width: 100%;
+
+}
+.htmlcss_skills{
+  animation: hmtl 2s forwards ;
+  width: 100%;
+  background:#83ad8b;
+  height: 20px;
+  size: 10px;
+  position: relative;
+
+}
+
+.AI_skills{
+  animation: AI 2s forwards ;
+  width: 100%;
+  background:#60551c;
+  height: 20px;
+
+  
+}
+.PYTHON_skills{
+  animation: PYTHON 2s forwards ;
+  width: 100%;
+  background:#1c4423;
+  height: 20px;
+  
+}
+@keyframes html {
+  TO{
+    width: 90%;
+  }
+  
+}
+@keyframes CSS {
+  TO{
+    width: 80%;
+  }
+  
+}
+@keyframes AI {
+  TO{
+    width: 90%;
+  }
+  
+}
+@keyframes PYTHON {
+  TO{
+    width: 30%;
+  }
+  
+}
+.content{ 
+  width: 100%;
+  position: absolute;
+  top: 70%;
+  transform: translateY(-50%);
+  text-align: center;
+  top: 2000px;
+  font-family: "Beatrice";
+}
+button{
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #0c362a;
+  background: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  font-family: "Beatrice";
+}
+span{ 
+background: #0c362a;
+height: 100%;
+width: 0%;
+border-radius: 25px;
+position: absolute;
+left: 0;
+bottom: 0;
+z-index: -1;
+transition: 0.5s;
+
+}
+button:hover span{
+ width: 100%; 
+  
+}
+button:hover{
+  border: none;  
+}
+button a{
+color: #f1f5c5;
+text-decoration: none;
+}
